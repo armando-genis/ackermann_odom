@@ -7,6 +7,7 @@ odometry based on the ackermann model for PIXALOOP- Hooke. CAN bus was used to r
 ```bash
   sudo apt-get install ros-melodic-ros-canopen
 ```
+![Image text](https://github.com/armando-genis/ackermann_odom/blob/main/images/pix.jpg)
 
 ## Authors
 
