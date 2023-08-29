@@ -1,0 +1,7 @@
+<launch>
+    <param name="wheelbase" value="1.9" />
+    <node name="socketcan_bridge_node" pkg="socketcan_bridge" type="socketcan_bridge_node">
+        <param name="can_device" value="can0"/>
+    </node>
+    <node name="can_read" pkg="ackermann_odom" type="ackermann_odom.py" output="screen" />
+</launch>
